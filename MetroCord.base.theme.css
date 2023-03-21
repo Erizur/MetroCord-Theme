@@ -1,0 +1,39 @@
+[class^="winButtonClose"] {
+    image-rendering: optimize-contrast; 
+    background-image: url("https://raw.githubusercontent.com/Erizur/MetroCord-Theme/main/icons/dark/close.png");
+    background-size: 15px;
+    width: 50px;
+    background-color: #c75050;
+}
+
+[class^="winButton"] {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+}
+
+[class^="winButton"] > svg {
+    display:none;
+}
+
+[class^="winButtonClose"]:hover {
+    background-color: #e04343;
+}
+
+[class^="winButtonClose"]:active {
+    width: 50px;
+    background-color: #993d3d;
+}
+
+[class^="winButtonMin"][aria-label="Minimize"] {
+    image-rendering: optimize-contrast; 
+    background-image: url("https://raw.githubusercontent.com/Erizur/MetroCord-Theme/main/icons/dark/minimize.png");
+    background-size: 12px;
+}
+
+[class^="winButtonMin"][aria-label="Maximize"] {
+    image-rendering: optimize-contrast; 
+    background-image: url("https://raw.githubusercontent.com/Erizur/MetroCord-Theme/main/icons/dark/maximize.png");
+    background-size: 12px;
+    background-position-y: 5px;
+}
