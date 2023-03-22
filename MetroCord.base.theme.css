@@ -11,9 +11,6 @@
     background-position: center;
     height: 20px;
 }
-[class^="withFrame"] {
-    margin-right: 4px;
-}
 
 [class^="winButton"] > svg {
     display:none;
